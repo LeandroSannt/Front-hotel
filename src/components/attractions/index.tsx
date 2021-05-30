@@ -14,6 +14,7 @@ export function Attractions(){
         <Container>
         <ScrollAnimation animateIn='bounce'
                         initiallyVisible={true}
+                        animateOnce ={true}
                         >
 
             <h1>Nossas Áreas / Piscinas</h1>
@@ -55,7 +56,7 @@ export function Attractions(){
         </ContainerImg>
 
         <ContainerHotel>
-            <ScrollAnimation animateIn='bounceInRight' className="animate">
+            <ScrollAnimation animateIn='bounceInRight' className="animate"  animateOnce ={true}>
                 
                <p> <span>consectetur adipisicing elit. Sapiente, expedita totam doloribus hic molestias
                  vero quas excepturi perspiciatis veniam earum natus nisi laborum est autem, 
@@ -67,7 +68,7 @@ export function Attractions(){
                  vero quas excepturi perspiciatis veniam earum natus nisi laborum est autem, 
                 blanditiis dolores dolorem magni voluptate.</p>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='fadeIn'>
+            <ScrollAnimation animateIn='fadeIn' animateOnce ={true}>
             <div>
                 <img src={piscina3} alt =""/>
                 <button>FAÇA SUA RESERVA</button>
