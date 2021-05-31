@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+<h1 align='center'>Hote-Aguas</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="src/assets/landing1.png">
 
-## Available Scripts
 
-In the project directory, you can run:
+<p>Landing-page desenvolvida para demostrar atrações do hotel alem de ter um formulario de contato que encaminhara os dados para o email da pessoa </p>
 
-### `yarn start`
+<img src="src/assets/landing2.png"><Br> <Br>
+<img src="src/assets/landing3.png"><Br> <Br>
+<img src="src/assets/landing5.png"><Br> <Br>
+<img src="src/assets/landing4.png"><Br> <Br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🛠 Tecnologias | Dependências
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p>Principais ferramentas que foram usadas na construção do projeto</p>
 
-### `yarn test`
+<h3>Tecnologias</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Reactjs <br>
+✅ Typescript <br>
+✅ styled-components <br>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <h4 align="center"> 
+    🚀 Landing-page concluida
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## pré-requisito
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
 
-### `yarn eject`
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Além disso é bom ter um editor para executar o código como [VsCode](https://code.visualstudio.com/download)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🎲 Rodando o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#clone este repositório
 
-## Learn More
+$ git clone https://github.com/LeandroSannt/Front-hotel.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## acesse a pasta do projeto no terminal/cmd
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ cd Front-hotel
+
+## instale as dependencias 
+
+$ yarn install
+
+## execute a aplicação em modo de desenvolvimento 
+
+$ yarn start
+
+# O servidor iniciará na porta:3000, acesse <http://localhost:3000>
+
+```

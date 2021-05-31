@@ -13,7 +13,7 @@ export function Form(){
     return(
 
         <FormContainer>
-            <ScrollAnimation animateIn='fadeIn' animateOnce ={false} >
+            <ScrollAnimation animateIn='fadeIn' animateOnce ={true}>
             <h2>FAÇA SUA RESERVA</h2>
             <div className="container">
                 <div className="personInfo">

@@ -13,7 +13,6 @@ export default class AutoPlay extends Component {
       autoplay: true,
       speed: 500,
       autoplaySpeed: 5000,
-      cssEase: "linear"
     };
     return (
 
