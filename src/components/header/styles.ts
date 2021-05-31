@@ -26,6 +26,18 @@ export const Container = styled.header `
                 align-items: center;
                 justify-content: center;
                 margin-right: 20px ;
+                color: black;
+                text-decoration: none;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover{
+                    color:var(--color-primary);
+                    font-weight: bold;
+                    }
+                }
 
                 &:last-child{
                 margin-right: 0;

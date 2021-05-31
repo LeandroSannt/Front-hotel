@@ -1,23 +1,15 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Content } from "./styles";
+import slickSettings from './slick_settings';
 
 
-export default class AutoPlay extends Component {
-  render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 500,
-      autoplaySpeed: 5000,
-    };
+export function SliderContent() {
+
     return (
 
       <Content>
-        <Slider className="slide" {...settings}>
+        <Slider className="slide" {...slickSettings}>
             <div className="Image1">
                     <div className="content">
                         <div className="hotel">
@@ -51,4 +43,3 @@ export default class AutoPlay extends Component {
       </Content>
     );
   }
-}
